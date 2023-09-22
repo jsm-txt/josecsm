@@ -5,8 +5,8 @@ import './Header.css';
 
 function Header() {
     return (
-        <nav className="title">
-            <h1 class=" m-3"> Jose's Computer Services</h1>
+        <nav class="title">
+            <h1 class=" p-3"> Jose's Computer Services</h1>
             <div class="nav">
                 <NavLink
                     className="button nav-link"

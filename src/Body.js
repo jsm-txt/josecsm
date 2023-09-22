@@ -5,8 +5,8 @@ import linkedin from './linkedin.png';
 
 function Body() {
     return (
-        <div>
-            <div class="container-fluid intro" >
+        <div class="body">
+            <div class="container-fluid intro pt-3" >
                 <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(22).webp" class="d-block w-100" alt="Canyon at Nigh"/>
                 <div class="text-container col-6 mb-sm-12" >
                     <h2>We Do Tech</h2>
@@ -17,9 +17,9 @@ function Body() {
             </div>
             
             
-            <div class="container-fluid mt-5">
+            <div class="container-fluid p-4">
                 <div class="row">
-                    <div class="col-sm-4 mb-3 mb-sm-0">
+                    <div class="col-sm-4 mb-3 mb-sm-0 pt-2 ">
                         <div class="card h-100">
                             <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(22).webp" alt="" class="card-img-top"/>
                             <div class="card-body">
@@ -28,7 +28,7 @@ function Body() {
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-4 mb-3 mb-sm-0">
+                    <div class="col-sm-4 mb-3 mb-sm-0 pt-2">
                         <div class="card h-100 ">
                         <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(22).webp" alt="" class="card-img-top"></img>
                             <div class="card-body">
@@ -37,7 +37,7 @@ function Body() {
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-4 mb-3 mb-sm-0">
+                    <div class="col-sm-4 mb-3 mb-sm-0 pt-2 ">
                         <div class="card h-100">
                         <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(22).webp" alt="" class="card-img-top"></img>
                             <div class="card-body">
@@ -48,22 +48,39 @@ function Body() {
                     </div>
                 </div>
             </div>
-           
+            <div class="container-fluid">
+                <h2>Our Builds</h2>
+                <img/>
+                <img/>
+                <img/>
 
-
-            <div class="container-fluid" >
-                <h2>Build</h2>
-                <p class="">
-                    Want your dream PC? We will build it for you! We'll help you find the best parts for YOU.
-                    We build PCs for streamers, gamers or a casual users, we will make sure to fit all of your requirements and budget.
-                </p>
             </div>
-            <div class="container-fluid" >
-                <h2>Repair</h2>
-                <p class="">
-                    We repair hardware and software problems! We also help with installation of hardware from SSDs, hardrives, GPU's and more! 
-                    We can help with software problems as well, and PC optimization.
+            <div class="container-fluid pt-4" >
+                <div class="row big-card">
+                <h2 class="col-4">Build</h2>
+                <p class="col-5 p-4 description">
+                    Want your dream PC? We will build a PC just for you!
+                    We build many kinds of PCs and with our experience we can help 
+                    you find the best parts to make yours one of a kind, 
+                    tailored to your needs.
+                    We make sure to fit all of your requirements for gaming, streaming or productivity,
+                    all within your budget. Don't wait any further on that dream set up of yours.
                 </p>
+                </div>
+                
+            </div>
+            <div class="container-fluid pt-4" >
+            <div class="row big-card">
+            <h2 class="col-4">Repair</h2>
+            <p class="col-5 p-4 description">
+                    We repair hardware and software problems! Having issues with hardware, games or programs?
+                    Give us a call or a message and we'll investigate, troubleshoot your problems.
+                    We'll help you get up and running in no time!
+                    We also help with installation of hardware from SSDs, hardrives, GPU's and more! 
+                    We also do PC optimization and help with mobile devices as well.
+                </p>
+                
+            </div>   
             </div>
             <div class="container-fluid">
                 {/* <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(22).webp" alt=""></img>
@@ -71,7 +88,7 @@ function Body() {
 
             </div>
             
-            <div class="container-fluid" >
+            <div class="container-fluid pt-4 pb-5" >
                 <h3 class="display-4"> Let's get in touch!</h3>
                 <p>Follow my social to view posts, content and updates!</p>
                 {/* <a href="https://www.google.com/" target="_blank" rel="noreferrer"><img src="./facebook.png" alt="facebook"></img></a>
@@ -81,9 +98,6 @@ function Body() {
                     <a class="m-1" href="https://www.google.com/" target="_blank" rel="noreferrer"><img class="social-media-icon" src={linkedin} alt="linkedin"></img></a>
                 </div>
             </div>
-            <div class="footer container-fluid m-5">
-            </div>
-
         </div>
     )
 }

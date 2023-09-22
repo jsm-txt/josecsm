@@ -1,22 +1,35 @@
+.body{
+    background-color:rgb(248, 253, 255);
+}
+
 .title{
     color: black;
+    background-color:rgb(222, 246, 255);
 }
 .nav{
     display: flex;
     justify-content: center;
+    background-color:rgb(219, 245, 255);
 }
 
 .title .nav-link {
+    color: navy;
+    /* border: solid 1px;
+    border-radius: 3px;
+    background-color: white; */
+  }
+.nav-link:hover{
     color: green;
-  }
-
-.title .nav-link-active {
+}
+/* button{
+    width: 100px;
+    background-color:green;
+}
+button:hover {
     color: rgb(246, 246, 246);
-    /* border-bottom: 2px solid rgb(255, 255, 255); */
-    padding-bottom: 3px
-    /* border: 2px solid; */
-    /* background: #BE5AFF; */
-  }
+    background-color: yellow;
+}
+ */
 
 
 
@@ -29,25 +42,37 @@
 
 .intro{
     display: flex;
-    
     justify-content: center;
-    
 }
 
 .card{
-
-    box-shadow: 2px 2px rgb(255,255,255);
-    border-style: solid;
-    /* border-width: 4px; */
-    border-color: rgb(205, 213, 215);
+    box-shadow: 2px 2px rgb(125, 125, 125);
+    border-style: none;
+    /* border-color: rgb(255, 255, 255); */
 }
 
 .card-body{
-    /* border-style: solid; */
-    /* border-width: 2px;
+    /* border-style: solid;
+    border-width: 2px;
     border-color: black; */
+    border-style: none;
     border-radius: 0 0 5px 5px;
-    background-color:   rgb(255,255,255);
+    background-color:   rgba(255, 186, 186, 0.196);
+}
+h2{
+    /* color:black;
+    padding-top:auto; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.big-card{
+    display: flex;
+    justify-content: center;
+}
+
+.description{
+    
 }
 
 .social-media-icon{
