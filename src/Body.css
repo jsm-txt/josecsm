@@ -1,0 +1,56 @@
+.title{
+    color: black;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+}
+
+.title .nav-link {
+    color: green;
+  }
+
+.title .nav-link-active {
+    color: rgb(246, 246, 246);
+    /* border-bottom: 2px solid rgb(255, 255, 255); */
+    padding-bottom: 3px
+    /* border: 2px solid; */
+    /* background: #BE5AFF; */
+  }
+
+
+
+.text-container {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    background-color: rgb(41, 41, 41, 0.8);
+    margin: auto; 
+}
+
+.intro{
+    display: flex;
+    
+    justify-content: center;
+    
+}
+
+.card{
+
+    box-shadow: 2px 2px rgb(255,255,255);
+    border-style: solid;
+    /* border-width: 4px; */
+    border-color: rgb(205, 213, 215);
+}
+
+.card-body{
+    /* border-style: solid; */
+    /* border-width: 2px;
+    border-color: black; */
+    border-radius: 0 0 5px 5px;
+    background-color:   rgb(255,255,255);
+}
+
+.social-media-icon{
+    height:40px;
+    width:40px;
+}
