@@ -1,7 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 
-import './Header.css';
 
 function Header() {
     return (
@@ -12,7 +11,7 @@ function Header() {
                     className="button nav-link"
                     activeClassName="nav-link-active"
                     exact
-                    to="https://www.google.com/?client=safari">Services</NavLink>
+                    to="/">Services</NavLink>
 
                 <NavLink
                     className="nav-link"

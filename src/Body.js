@@ -1,11 +1,12 @@
 import React from 'react'
-
+import Header from './Header'
 import instagram from './instagram.png';
 import linkedin from './linkedin.png';
 
 function Body() {
     return (
         <div class="body">
+            <Header/>
             <div class="container-fluid intro pt-3" >
                 <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(22).webp" class="d-block w-100" alt="Canyon at Nigh"/>
                 <div class="text-container col-6 mb-sm-12" >
@@ -88,16 +89,7 @@ function Body() {
 
             </div>
             
-            <div class="container-fluid pt-4 pb-5" >
-                <h3 class="display-4"> Let's get in touch!</h3>
-                <p>Follow my social to view posts, content and updates!</p>
-                {/* <a href="https://www.google.com/" target="_blank" rel="noreferrer"><img src="./facebook.png" alt="facebook"></img></a>
-                <a href="https://www.google.com/" target="_blank" rel="noreferrer"><img src="./instagram.png" alt="instagram"></img></a> */}
-                <div class="">
-                    <a class="m-1" href="https://www.google.com/" target="_blank" rel="noreferrer"><img class="social-media-icon" src={instagram} alt="linkedin"></img></a>
-                    <a class="m-1" href="https://www.google.com/" target="_blank" rel="noreferrer"><img class="social-media-icon" src={linkedin} alt="linkedin"></img></a>
-                </div>
-            </div>
+            
         </div>
     )
 }
