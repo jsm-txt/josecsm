@@ -6,12 +6,13 @@ import reportWebVitals from './reportWebVitals';
 
 import 'bootstrap/dist/css/bootstrap.css';
 import './Body.css';
+import './portfolio.css'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
-    
+
   </React.StrictMode>
 );
 
