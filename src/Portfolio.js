@@ -19,14 +19,29 @@ function Portfolio() {
                 </div>
             </div>
             <div class="white-banner">
-
             </div>
             <div class="container-fluid ">
                 <h1 class=" "> Jose C Salazar Mendez</h1>
                 <p class="bio">He/Him - Hispanic/Latino</p>
+                {/* <div class="row edu pb-4">
+                    <a class="col-1 links" href="https://github.com/jsm-txt">Github</a>
+                    <a class="col-1 links" href="https://www.linkedin.com/in/jose-salazar-mendez-58a481206/">Linkedin</a>
+                </div> */}
             </div>
             <hr class="col-6"></hr>
 
+            <div class="container-fluid">
+                <h3> About Me </h3>
+                <div class="work-desc col-12 pb-4">
+                    I am a recent CS graduate with an interest in backend, 
+                    frontend, and mobile development. My strengths are problem solving, 
+                    leading creative projects, and excellent communication skills. 
+                    I’m looking forward to demonstrating my many various skills and 
+                    working with talented individuals.
+
+                </div>
+            </div>
+            <hr class="col-6"></hr>
 
             <div class="container-fluid">
                 <h3>Education </h3>
@@ -63,8 +78,7 @@ function Portfolio() {
                         <div class="work-name">Co.lab</div>
                         <div>May 2022 - Aug 2022</div>
                         <div class="edu-desc"> Software Developer</div>
-
-                        <div class="work-links"> https://github.com/gaja-project/gaja </div>
+                        <a class="links" href="https://github.com/gaja-project/gaja">github.com/gaja-project/gaja</a>
                         {/* <div class="work-links">https://mailchi.mp/f9063425d3aa/gaja</div> */}
 
                     </div>
@@ -91,7 +105,7 @@ function Portfolio() {
                         <div class="work-name">Omniconxx</div>
                         <div class="edu-desc">Backend Developer</div>
                         <div class="work-links">Javascript, React.js, Node.js, MongoDB</div>
-                        <div> https://github.com/OmniConnx/OmniConnx </div>
+                        <a class="links" href="https://github.com/OmniConnx/OmniConnx">github.com/OmniConnx/OmniConnx</a>
                     </div>
                 </div>
                 <div class="work-desc col-12 pb-3">
@@ -108,7 +122,7 @@ function Portfolio() {
                         <div class="work-name">Hoya</div>
                         <div class="edu-desc">Frontend Developer</div>
                         <div class="work-links">Python, Flask, MongoDB, Tensorflow.</div>
-                        <div>https://github.com/TheVille415/spd_housing</div>
+                        <a class="links" href="https://github.com/TheVille415/spd_housing">github.com/TheVille415/spd_housing</a>
                     </div>
                 </div>
                 <div class="work-desc col-12 pb-3">
@@ -123,7 +137,7 @@ function Portfolio() {
                         <div class="work-name">Everything Weather</div>
                         <div class="edu-desc">Software Developer</div>
                         <div class="work-links">Javascript, React.js, D3.js.</div>
-                        <div>https://github.com/TheVille415/spd_housing</div>
+                        <a class="links" href="https://github.com/jsm-txt/Everything_Weather">github.com/jsm-txt/Everything_Weather</a>
                     </div>
                 </div>
                 <div class="work-desc col-12 pb-3">
@@ -134,19 +148,19 @@ function Portfolio() {
                 </div>
                 <h4> Smaller projects</h4>
                 <div class="row edu p-2 pb-4">
-                    <div class="col-4">
+                    <div class=" col-4">
                         <div class="project-card h-100 p-3">
                             <div class="work-name">iOS Calculator App</div>
                             <div class="work-links">Swift</div>
-                            <div>https://github.com/TheVille415/spd_housing</div>
+                            <a class="links" href="https://github.com/jsm-txt/TipCalculatorApp">jsm-txt/TipCalculatorApp</a>
                             <div>I built an iOS calculator apps similar to the default one</div>
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class=" col-4">
                         <div class="project-card h-100 p-3">
                             <div class="work-name">Eutheruem Contract</div>
                             <div class="work-links">Solidium</div>
-                            <div>https://github.com/TheVille415/spd_housing</div>
+                            <a class="links" href="https://github.com/jsm-txt/My_Dapp">jsm-txt/My_Dapp</a>
                             <div>I deployed a smart contract to the testnet</div>
                         </div>
                     </div>
@@ -169,19 +183,6 @@ function Portfolio() {
                         </div>
                     </div>
                 </div> */}
-            </div>
-
-            <hr class="col-6"></hr>
-            <div class="container-fluid">
-                <h3> About Me </h3>
-                <div class="work-desc col-12 pb-4">
-                    I am a recent CS graduate with an interest in backend, 
-                    frontend, and mobile development. My strengths are problem solving, 
-                    leading creative projects, and excellent communication skills. 
-                    I’m looking forward to demonstrating my many various skills and 
-                    working with talented individuals.
-
-                </div>
             </div>
 
             <hr class="col-6"></hr>
@@ -221,22 +222,7 @@ function Portfolio() {
                     Line cook responsible for presparing food for customers in a timely fashion.
                 </div>
             </div>
-
-            {/* <div class="nav">
-            <NavLink
-                className="button nav-link"
-                activeClassName="nav-link-active"
-                exact
-                to="/">Jose's Computer Services </NavLink>
-
-            <NavLink
-                className="nav-link"
-                activeClassName="nav-link-active"
-                to="/about">About</NavLink>
-
-        </div> */}
-
-
+            <hr class="col-6"></hr>
         </div>
 
     )

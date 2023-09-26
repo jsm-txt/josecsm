@@ -43,6 +43,7 @@ h3{
 }
 .bio{
     font-size:1.2rem;
+    /* margin:0; */
 }
 
 .edu{
@@ -90,15 +91,22 @@ h3{
     
 }
 .project-card{
+    /* border:solid 1px;
+    border-color:rgb(95, 175, 255);;
+    border-radius: 8px; */
+    max-width: 450px;
+}
+
+.about-me{
+    /* max-width: 900px;
+    margin:auto;
+    padding-right:30px;
+    padding-left:30px; */
     border:solid 1px;
     border-color:rgb(95, 175, 255);;
     border-radius: 8px;
 }
-/* .l{
-    border: solid;
-    background-color: lightblue;
-    border-radius:20px;
-} */
+
 hr{
     color:rgb(1, 128, 255);
     /* width:300px; */
