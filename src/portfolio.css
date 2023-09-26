@@ -43,9 +43,22 @@ h3{
 }
 .bio{
     font-size:1.2rem;
-    /* margin:0; */
+    margin:0;
 }
-
+.bio-links{
+    /* display: inline; */
+}
+.links{
+    font-size: .8rem; 
+    color: rgb(1, 128, 255);
+}
+.button-link{
+    border-style: none;
+    background-color: white;
+    max-width: 200px;
+    margin: auto;
+    text-decoration: underline;
+}
 .edu{
     display: flex;
     justify-content: center;

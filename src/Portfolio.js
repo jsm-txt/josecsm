@@ -7,6 +7,13 @@ import duc from './duc.jpg'
 import aec from './aec.jpg'
 import colab from './colab.png'
 
+const email = "josesm0415@gmail.com"
+// function copyToClipboard() {
+//     const email = "josesm0415@gmail.com"
+//     navigator.clipboard.writeText(email);
+//     // Alert the copied text
+//     alert("Copied to clipboard");
+//   }
 
 function Portfolio() {
     return (
@@ -23,22 +30,24 @@ function Portfolio() {
             <div class="container-fluid ">
                 <h1 class=" "> Jose C Salazar Mendez</h1>
                 <p class="bio">He/Him - Hispanic/Latino</p>
-                {/* <div class="row edu pb-4">
-                    <a class="col-1 links" href="https://github.com/jsm-txt">Github</a>
-                    <a class="col-1 links" href="https://www.linkedin.com/in/jose-salazar-mendez-58a481206/">Linkedin</a>
-                </div> */}
+                <div class="row bio-links">
+                    <a class="col-sm-12 col-3 links" href="https://github.com/jsm-txt">github.com/jsm-txt</a>
+                    <a class="col-sm-12 col-3 links" href="https://www.linkedin.com/in/jose-salazar-mendez-58a481206/">linkedin.com/in/jose-salazar-mendez-58a481206</a>
+                    <button class="col-sm-12 col-3 button-link links" onClick={() => {navigator.clipboard.writeText(email); alert("Copied to clipboard")}}value="josesm0415@gmail.com">josesm0415@gmail.com</button>
+                </div>
             </div>
-            <hr class="col-6"></hr>
+            <hr class="col-6 mt-3"></hr>
 
             <div class="container-fluid">
                 <h3> About Me </h3>
                 <div class="work-desc col-12 pb-4">
-                    I am a recent CS graduate with an interest in backend, 
-                    frontend, and mobile development. My strengths are problem solving, 
-                    leading creative projects, and excellent communication skills. 
-                    I’m looking forward to demonstrating my many various skills and 
-                    working with talented individuals.
-
+                    A recent graduate from Dominican University of California with a Bachlors in Computer Sciece. 
+                    I've had 6 years worth of higher eduaction by taking the accelerated program from Dominican combined
+                    with my previous course work. I've worked on bringin out the most out of me and my work which
+                    can be seen on my github. I've collaborated with many other developers, fellow studnets and cleints 
+                    while bringing a lot of enthusiasm, motivation and ability to learn to the table. I look forward to 
+                    getting to know more people across the field as I discover more about the every growing nature of 
+                    Computer Science and the Web.
                 </div>
             </div>
             <hr class="col-6"></hr>
