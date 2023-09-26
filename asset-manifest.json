@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/josecsm/static/css/main.04b47b88.css",
-    "main.js": "/josecsm/static/js/main.383654c5.js",
+    "main.css": "/josecsm/static/css/main.dbb18dc8.css",
+    "main.js": "/josecsm/static/js/main.5112766f.js",
     "static/js/787.9d95c6bf.chunk.js": "/josecsm/static/js/787.9d95c6bf.chunk.js",
     "static/media/banner.jpg": "/josecsm/static/media/banner.115799918dfd826a04ba.jpg",
     "static/media/pfp.jpg": "/josecsm/static/media/pfp.f285cc9c9fc7a9bd3767.jpg",
+    "static/media/gmail.png": "/josecsm/static/media/gmail.6ad6ad8b6d4420468cc9.png",
     "static/media/github.png": "/josecsm/static/media/github.d7df79d29c9eebf64099.png",
     "static/media/duc.jpg": "/josecsm/static/media/duc.095bc69b36c587ab7921.jpg",
     "static/media/uwgb.jpg": "/josecsm/static/media/uwgb.1baebdf4eb1b9326eb27.jpg",
@@ -13,12 +14,12 @@
     "static/media/instagram.png": "/josecsm/static/media/instagram.1852579837ca57f6a801.png",
     "static/media/colab.png": "/josecsm/static/media/colab.88a93bd401ff4fcf66ae.png",
     "index.html": "/josecsm/index.html",
-    "main.04b47b88.css.map": "/josecsm/static/css/main.04b47b88.css.map",
-    "main.383654c5.js.map": "/josecsm/static/js/main.383654c5.js.map",
+    "main.dbb18dc8.css.map": "/josecsm/static/css/main.dbb18dc8.css.map",
+    "main.5112766f.js.map": "/josecsm/static/js/main.5112766f.js.map",
     "787.9d95c6bf.chunk.js.map": "/josecsm/static/js/787.9d95c6bf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.04b47b88.css",
-    "static/js/main.383654c5.js"
+    "static/css/main.dbb18dc8.css",
+    "static/js/main.5112766f.js"
   ]
 }
