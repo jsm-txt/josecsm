@@ -13,7 +13,7 @@
 h3{
     color:black;
     padding-top: 20px;
- 
+    font-size:1.9rem;
 }
 .banner-imgs{
     height:200px;
@@ -41,6 +41,10 @@ h3{
     height:14vh;
     min-height:80px;
 }
+.bio{
+    font-size:1.2rem;
+}
+
 .edu{
     display: flex;
     justify-content: center;
@@ -79,15 +83,24 @@ h3{
     /* text-align: left; */
     /* font-style: italic; */
 }
-.l{
+
+.other{
+    display: flex;
+    justify-content: center;
+    
+}
+.project-card{
+    border:solid 1px;
+    border-color:rgb(95, 175, 255);;
+    border-radius: 8px;
+}
+/* .l{
     border: solid;
     background-color: lightblue;
     border-radius:20px;
-
-
-}
+} */
 hr{
-    color:blue;
-    width:300px;
+    color:rgb(1, 128, 255);
+    /* width:300px; */
     margin:auto;
 }
