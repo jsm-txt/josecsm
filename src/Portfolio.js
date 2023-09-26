@@ -30,10 +30,16 @@ function Portfolio() {
             <div class="container-fluid ">
                 <h1 class=" "> Jose C Salazar Mendez</h1>
                 <p class="bio">He/Him - Hispanic/Latino</p>
-                <div class="row bio-links">
-                    <a class="col-sm-12 col-3 links" href="https://github.com/jsm-txt">github.com/jsm-txt</a>
-                    <a class="col-sm-12 col-3 links" href="https://www.linkedin.com/in/jose-salazar-mendez-58a481206/">linkedin.com/in/jose-salazar-mendez-58a481206</a>
-                    <button class="col-sm-12 col-3 button-link links" onClick={() => {navigator.clipboard.writeText(email); alert("Copied to clipboard")}}value="josesm0415@gmail.com">josesm0415@gmail.com</button>
+                <div class="row edu">
+                    <a class="col-5 col-sm-12 links" href="https://github.com/jsm-txt">github.com/jsm-txt</a>
+ 
+                </div>
+                <div class="row edu">
+                    <a class=" col-5 col-sm-12 links" href="https://www.linkedin.com/in/jose-salazar-mendez-58a481206/">linkedin.com/in/jose-salazar-mendez-58a481206</a>
+
+                </div>
+                <div class="row edu">
+                    <button class="col-5 col-sm-12 button-link links" onClick={() => { navigator.clipboard.writeText(email); alert("Copied to clipboard") }} value="josesm0415@gmail.com">josesm0415@gmail.com</button>
                 </div>
             </div>
             <hr class="col-6 mt-3"></hr>
@@ -193,6 +199,11 @@ function Portfolio() {
                     </div>
                 </div> */}
             </div>
+            {/* <hr class="col-6"></hr>ß
+            <div class="container-fluid">
+            <h3>Hobbies </h3>
+
+            </div> */}
 
             <hr class="col-6"></hr>
             <div class="container-fluid">
