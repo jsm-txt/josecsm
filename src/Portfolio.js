@@ -271,7 +271,7 @@ function Portfolio() {
                     Certified forklift and machine operator. Responsible for completing
                     forklift safety checklist for company forklifts. Responsible for maintaining
                     safety rules and procedures while moving materials with a forklift
-                    in a crowded wearhouses environment. Machine pourhead operator responsible
+                    in a crowded warehouse environment. Machine pourhead operator responsible
                     for ensuring high quality foam production. Accident free on both as
                     machine line lead, and material handler.
                 </div>
