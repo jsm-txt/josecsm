@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/josecsm/static/css/main.d0a16269.css",
-    "main.js": "/josecsm/static/js/main.460e0928.js",
+    "main.js": "/josecsm/static/js/main.a3615183.js",
     "static/js/787.9d95c6bf.chunk.js": "/josecsm/static/js/787.9d95c6bf.chunk.js",
     "static/media/computer.jpg": "/josecsm/static/media/computer.b3e7ae76a98365ff1fe8.jpg",
     "static/media/banner.jpg": "/josecsm/static/media/banner.115799918dfd826a04ba.jpg",
@@ -19,11 +19,11 @@
     "static/media/coursera.webp": "/josecsm/static/media/coursera.1f110bb456bebf178bd4.webp",
     "index.html": "/josecsm/index.html",
     "main.d0a16269.css.map": "/josecsm/static/css/main.d0a16269.css.map",
-    "main.460e0928.js.map": "/josecsm/static/js/main.460e0928.js.map",
+    "main.a3615183.js.map": "/josecsm/static/js/main.a3615183.js.map",
     "787.9d95c6bf.chunk.js.map": "/josecsm/static/js/787.9d95c6bf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d0a16269.css",
-    "static/js/main.460e0928.js"
+    "static/js/main.a3615183.js"
   ]
 }
