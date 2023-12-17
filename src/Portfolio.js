@@ -26,7 +26,7 @@ function Portfolio() {
                 <div class="banner-imgs ">
                     {/* <img class="col-12 m-0  p-0 banner" src={banner} alt="" /> */}
                     {/* <div class='bg-image'></div> */}
-                    <img class=" profile-pic" src={pfp} alt="" />
+                    <img class="profile-pic" src={pfp} alt="Profile picture" />
                 </div>
             </div>
             <div class="white-banner">
@@ -40,7 +40,9 @@ function Portfolio() {
                 </div>
                 <div class="row edu">
                     <a class=" col-5 col-sm-12 links" href="https://www.linkedin.com/in/jose-salazar-mendez-58a481206/">linkedin.com/in/jose-salazar-mendez-58a481206</a>
-
+                </div>
+                <div class="row edu">
+                    <a class=" col-5 col-sm-12 links" href="https://www.coursera.org/learner/jose-salazar-mendez">Coursera Profile</a>
                 </div>
                 <div class="row edu">
                     <button class="col-5 col-sm-12 button-link links" onClick={() => { navigator.clipboard.writeText(email); alert("Copied to clipboard") }} value="josesm0415@gmail.com">josesm0415@gmail.com</button>

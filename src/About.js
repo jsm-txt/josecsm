@@ -1,12 +1,14 @@
 import React from 'react'
 import Header from './Header'
+import image from './pfp.jpg'
 function About() {
     return (
         <div>
             <Header />
-            <div>
+            <div class="container-fluid about">
+                <img src={image} class="about-pic" alt="Canyon at Nigh"></img>
                 <h2>My Story</h2>
-                <p>
+                <p class="col-10 horizontal-center">
                     I love doing many things, from working with and on computers and
                     making the best gaming set ups! I do everything with passion and
                     research the lastest and greatest things to hit the market. I investigate
@@ -23,7 +25,6 @@ function About() {
                     want from their PCs, they can just give me a call.
                 </p>
             </div>
-
         </div>
 
   )
